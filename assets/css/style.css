@@ -292,9 +292,9 @@ textarea {
         flex-wrap: wrap;
     }
     .main {
-        background-color: #ccc;
-        background-image: url("../../assets/images/webBackground.jpg");
-        background-size: 50% 1800px;
+        background-color: whitesmoke;
+        background-image: none;
+       
              
         }
 
@@ -311,8 +311,23 @@ textarea {
             margin-left: 10px;
             margin-bottom: 10px;
        }
+       #form {
+        position: relative;
+        width: 400px;
+   
+   }
+   #name {
+    width: 500px;
+}
+#email {
+    width: 500px;
+}
+#message {
+    width: 500px;
+}
+
      
-    }
+ 
     
     
   }
