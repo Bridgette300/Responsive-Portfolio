@@ -246,12 +246,23 @@ textarea {
 
 }
 
-@media screen and (max-width: 640px) {
+#name {
+    width: 120%;
+}
+#email {
+    width: 120%;
+}
+#message {
+    width: 120%;
+}
+
+/* For 960 width  */
+@media screen and (max-width: 960px) {
     .name {
     position: none;
     display: block;
     top: 0;
-    margin-left: none;
+    margin-left: 135px;
     margin-top: 10px;
     width: none;  
     }
@@ -264,6 +275,11 @@ textarea {
         right: none;
         top: none;
         margin-top: 90px;
+        width: 60%;
+    }
+
+    .content {
+        width: 95%;
     }
 
     .wrapper {
@@ -276,16 +292,12 @@ textarea {
     
     }
     .sideBar {
-        width: 100%;
+        width: 95%;
         background-color: #666666;
         height: 200px;
     }
     
-    .imgProfile {
-       width: 80%;
-        float: none;
-       
-    }  
+    
     .nav {
       
         margin-bottom: 60px;
@@ -316,18 +328,94 @@ textarea {
         width: 400px;
    
    }
-   #name {
-    width: 500px;
-}
-#email {
-    width: 500px;
-}
-#message {
-    width: 500px;
-}
 
-     
- 
-    
     
   }
+
+  /* for 768px width  */
+  @media screen and (max-width: 768px) {
+    .name {
+        position: none;
+        display: block;
+    
+        margin-left: 50px;
+        
+        }
+
+
+    .wrapper {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+       padding: 0 10px 0 10px;
+    
+    }
+
+    .content {
+        width: 100%;
+    }
+    .sideBar {
+        width: 100%;
+        background-color: #666666;
+        height: 200px;
+    }
+    
+    
+    .nav {
+      
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+    }
+  
+
+ #form {
+        position: relative;
+        width: 400px;
+   
+   }
+
+    
+  }
+
+    /* for 640px with */
+
+    @media screen and (max-width: 640px) {
+        .name {
+        margin-left: none;
+        }
+        .wrapper {
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 90%;
+           padding: 0 10px 0 10px;
+        
+        } 
+        .imgProfile {
+           width: 80%;
+            float: none;
+        }  
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+           }
+           
+           .row2 {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                margin-left: 10px;
+                margin-bottom: 10px;
+           }
+           #form {
+            position: relative;
+            width: 400px;
+       
+       }
+
+        
+      }
