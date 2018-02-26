@@ -302,6 +302,7 @@ textarea {
       
         margin-bottom: 60px;
         flex-wrap: wrap;
+        flex-direction: unset;
     }
     .main {
         background-color: whitesmoke;
@@ -338,7 +339,7 @@ textarea {
         position: none;
         display: block;
     
-        margin-left: 50px;
+        margin-left: 55px;
         
         }
 
@@ -383,7 +384,7 @@ textarea {
 
     @media screen and (max-width: 640px) {
         .name {
-        margin-left: none;
+        margin-left: 30px;
         }
         .wrapper {
             margin: 0 auto;
